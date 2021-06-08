@@ -5,4 +5,5 @@ export interface SvgProps extends SVGAttributes<HTMLOrSVGElement>, SpaceProps {
     theme?: DefaultTheme;
     spin?: boolean;
     isActive?: boolean;
+    isDark?: boolean;
 }

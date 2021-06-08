@@ -1924,7 +1924,7 @@ var Icon$I = function (props) {
 
 var Icon$J = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M12 12.75C13.63 12.75 15.07 13.14 16.24 13.65C17.32 14.13 18 15.21 18 16.38V17C18 17.55 17.55 18 17 18H7C6.45 18 6 17.55 6 17V16.39C6 15.21 6.68 14.13 7.76 13.66C8.93 13.14 10.37 12.75 12 12.75ZM4 13C5.1 13 6 12.1 6 11C6 9.9 5.1 9 4 9C2.9 9 2 9.9 2 11C2 12.1 2.9 13 4 13ZM5.13 14.1C4.76 14.04 4.39 14 4 14C3.01 14 2.07 14.21 1.22 14.58C0.48 14.9 0 15.62 0 16.43V17C0 17.55 0.45 18 1 18H4.5V16.39C4.5 15.56 4.73 14.78 5.13 14.1ZM20 13C21.1 13 22 12.1 22 11C22 9.9 21.1 9 20 9C18.9 9 18 9.9 18 11C18 12.1 18.9 13 20 13ZM24 16.43C24 15.62 23.52 14.9 22.78 14.58C21.93 14.21 20.99 14 20 14C19.61 14 19.24 14.04 18.87 14.1C19.27 14.78 19.5 15.56 19.5 16.39V18H23C23.55 18 24 17.55 24 17V16.43ZM12 6C13.66 6 15 7.34 15 9C15 10.66 13.66 12 12 12C10.34 12 9 10.66 9 9C9 7.34 10.34 6 12 6Z" })));
+        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/medium.png" : "/images/mediumlight.png" })));
 };
 
 var Icon$K = function (props) {
@@ -2223,7 +2223,7 @@ var Icon$U = function (props) {
 
 var Icon$V = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M12 3C7.02985 3 3 7.02985 3 11.9904C3 16.9606 7.02985 21 12 21C16.9701 21 21 16.9606 21 11.9904C21 7.02985 16.9701 3 12 3ZM16.4328 8.65139C16.3753 9.48614 14.8305 15.7228 14.8305 15.7228C14.8305 15.7228 14.7345 16.0874 14.3987 16.097C14.2836 16.097 14.1301 16.0874 13.9574 15.9243C13.6023 15.6269 12.7964 15.0512 12.0384 14.5235C12.0096 14.5522 11.9808 14.581 11.9424 14.6098C11.7697 14.7633 11.5107 14.984 11.2324 15.2527C11.1269 15.3486 11.0117 15.4542 10.8966 15.5693L10.887 15.5789C10.8198 15.6461 10.7623 15.694 10.7143 15.7324C10.3401 16.0394 10.3017 15.7804 10.3017 15.6461L10.5032 13.4488V13.4296L10.5128 13.4104C10.5224 13.3817 10.5416 13.3721 10.5416 13.3721C10.5416 13.3721 14.4659 9.87953 14.5714 9.50533C14.581 9.48614 14.5522 9.46695 14.5043 9.48614C14.2452 9.57249 9.72601 12.4318 9.22708 12.7484C9.19829 12.7676 9.11194 12.758 9.11194 12.758L6.91471 12.0384C6.91471 12.0384 6.65565 11.9328 6.742 11.693C6.76119 11.645 6.78998 11.597 6.89552 11.5299C7.38486 11.1844 15.8955 8.12367 15.8955 8.12367C15.8955 8.12367 16.1354 8.04691 16.2793 8.09488C16.3465 8.12367 16.3849 8.15245 16.4232 8.2484C16.4328 8.28678 16.4424 8.36354 16.4424 8.44989C16.4424 8.49787 16.4328 8.55544 16.4328 8.65139Z" })));
+        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/telegram.png" : "/images/telegramlight.png" })));
 };
 
 var Icon$W = function (props) {
@@ -2393,14 +2393,14 @@ var Icon$X = function (props) {
 
 var Icon$Y = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M8.65854 19C15.4488 19 19.1659 13.2338 19.1659 8.23717C19.1659 8.07728 19.1659 7.91739 19.1561 7.7475C19.878 7.21785 20.5024 6.5483 21 5.78881C20.3366 6.08861 19.6244 6.28847 18.8732 6.38841C19.6341 5.91872 20.2195 5.17921 20.5024 4.28981C19.7902 4.72951 19 5.03931 18.1512 5.20919C17.478 4.45969 16.522 4 15.4585 4C13.4195 4 11.761 5.69887 11.761 7.78747C11.761 8.08728 11.8 8.36709 11.8585 8.6469C8.79512 8.497 6.07317 6.97801 4.24878 4.68954C3.92683 5.25916 3.75122 5.90873 3.75122 6.59827C3.75122 7.90739 4.40488 9.06662 5.39024 9.74617C4.78537 9.72618 4.21951 9.5563 3.72195 9.27648C3.72195 9.28648 3.72195 9.30646 3.72195 9.32645C3.72195 11.1552 5 12.6942 6.67805 13.034C6.36585 13.1239 6.0439 13.1639 5.70244 13.1639C5.46829 13.1639 5.23415 13.1439 5.00976 13.0939C5.47805 14.6029 6.8439 15.6922 8.46341 15.7222C7.19512 16.7415 5.60488 17.3411 3.87805 17.3411C3.58537 17.3411 3.28293 17.3311 3 17.2911C4.62927 18.3704 6.57073 19 8.65854 19Z" }))
+        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/twitter.png" : "/images/twitterlight.png" }))
     // <img src="" />
     );
 };
 
 var Icon$Z = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 26 25" }, props),
-        React__default['default'].createElement("image", { width: "25", height: "25", href: props.isActive ? "/images/greenauditicon.png" : '/images/auditicon.png' }))
+        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/facebook.png" : "/images/facebooklight.png" }))
     // <Svg viewBox="-60 -30 600 600" {...props}>
     //   <g id="surface1">
     //     <path d="M 217.996094 158.457031 C 164.203125 158.457031 120.441406 202.21875 120.441406 256.007812 C 120.441406 309.800781 164.203125 353.5625 217.996094 353.5625 C 271.785156 353.5625 315.546875 309.800781 315.546875 256.007812 C 315.546875 202.21875 271.785156 158.457031 217.996094 158.457031 Z M 275.914062 237.636719 L 206.027344 307.523438 C 203.09375 310.457031 199.246094 311.925781 195.402344 311.925781 C 191.558594 311.925781 187.714844 310.460938 184.78125 307.523438 L 158.074219 280.816406 C 152.207031 274.953125 152.207031 265.441406 158.074219 259.574219 C 163.9375 253.707031 173.449219 253.707031 179.316406 259.574219 L 195.402344 275.660156 L 254.671875 216.394531 C 260.535156 210.527344 270.046875 210.527344 275.914062 216.394531 C 281.78125 222.257812 281.78125 231.769531 275.914062 237.636719 Z M 275.914062 237.636719 " />
@@ -2645,6 +2645,11 @@ var links = [
 ];
 var socials = [
     {
+        label: "Facebook",
+        icon: "AuditIcon",
+        href: "https://twitter.com/pharmswap",
+    },
+    {
         label: "Telegram",
         icon: "TelegramIcon",
         items: [
@@ -2701,6 +2706,11 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
+        href: "https://twitter.com/pharmswap",
+    },
+    {
+        label: "Medium",
+        icon: "GroupsIcon",
         href: "https://twitter.com/pharmswap",
     },
 ];
@@ -2842,15 +2852,15 @@ var PanelFooter = function (_a) {
                         React__default['default'].createElement("td", { style: { alignItems: "middle", width: "50%" } },
                             React__default['default'].createElement(Text, { color: "textSubtle", style: { fontSize: "14px", textAlign: "center" } }, "Language"),
                             React__default['default'].createElement(Dropdown, { position: "top-right", target: React__default['default'].createElement(Button, { variant: "text", style: { padding: "0", height: "0", textAlign: "center", width: "100%" } },
-                                    React__default['default'].createElement(Text, { color: "text", style: { fontWeight: "bold", fontSize: "25px", paddingTop: "30px" } }, currentLang === null || currentLang === void 0 ? void 0 :
+                                    React__default['default'].createElement(Text, { color: "text", style: { fontWeight: 500, fontSize: "20px", paddingTop: "30px" } }, currentLang === null || currentLang === void 0 ? void 0 :
                                         currentLang.toUpperCase(),
                                         React__default['default'].createElement(Icon$7, null))) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
                                 // Safari fix
                                 style: { minHeight: "32px", height: "auto" } }, lang.language)); }))))))),
         React__default['default'].createElement(SettingsEntry, null,
-            React__default['default'].createElement(Flex, { style: { padding: "10px", borderRadius: "50%" } }, socials.map(function (social, index) {
+            React__default['default'].createElement(Flex, { style: { padding: "8px 15px", marginTop: "15px", marginLeft: "-8px", marginBottom: "10px", borderRadius: "30px", background: "" + (isDark ? "#2d2d2d" : "#c0c0c04f") } }, socials.map(function (social, index) {
                 var Icon = Icons$1[social.icon];
-                var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+                var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer", marginTop: "2px" } };
                 var mr = index < socials.length - 1 ? "24px" : 0;
                 // if (social.items) {
                 //   return (
@@ -2863,8 +2873,8 @@ var PanelFooter = function (_a) {
                 //     </Dropdown>
                 //   );
                 // }
-                return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
-                    React__default['default'].createElement(Icon, __assign({}, iconProps))));
+                return (React__default['default'].createElement(Link, { style: { borderRadius: "50%", background: "" + (isDark ? "#2d2d2d" : "#c0c0c0c0"), padding: "2px" }, external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
+                    React__default['default'].createElement(Icon, __assign({}, iconProps, { isDark: isDark }))));
             })))));
 };
 var templateObject_1$C, templateObject_2$c, templateObject_3$7, templateObject_4$2;
@@ -3363,7 +3373,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f5f6fa", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#e9f5f6", text: "#14c39a", textColor: "#000000", textDisabled: "#f7f8fa", textSubtle: "#989898", borderColor: "#E9EAEB", card: "#FFFFFF", cardBackground: '#FFFFFF', gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     }, bgMenu: '#fff' });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fff", background: "#252525", backgroundDisabled: "#404040", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#393939", primaryDark: "#0098A1", tertiary: "#404040", textColor: "#FFF", text: "#14c39a", textDisabled: "#393939", textSubtle: "#989898", borderColor: "#393939", card: "#404040", cardBackground: '#27262c', gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fff", background: "#252525", backgroundDisabled: "#404040", contrast: "#FFFFFF", invertedContrast: "#393939", input: "#393939", primaryDark: "#252525", tertiary: "#404040", textColor: "#FFF", text: "#14c39a", textDisabled: "#393939", textSubtle: "#989898", borderColor: "#393939", card: "#404040", cardBackground: '#27262c', gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     }, bgMenu: '#4e4c4f' });
 

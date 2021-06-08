@@ -115,6 +115,11 @@ export const links = [
 
 export const socials = [
   {
+    label: "Facebook",
+    icon: "AuditIcon",
+    href: "https://twitter.com/pharmswap",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -175,6 +180,11 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
+    href: "https://twitter.com/pharmswap",
+  },
+  {
+    label: "Medium",
+    icon: "GroupsIcon",
     href: "https://twitter.com/pharmswap",
   },
 ];

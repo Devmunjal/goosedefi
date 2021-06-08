@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled, { keyframes } from 'styled-components'
 import { Link } from 'react-router-dom'
 import { Heading, Text, BaseLayout, ButtonMenu, ButtonMenuItem, Button, Card, CardHeader, CardBody, Flex } from '@pancakeswap-libs/uikit'
@@ -74,7 +74,7 @@ const Hero = styled.div`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/ss.png'), url('/images/image20.png');
-    background-position: left center, right center;
+    background-position: 5% center, 95% center;
     padding-top: 0;
     background-color: ${({ theme }) => theme.colors.card};
     border-radius: 22px;
@@ -157,7 +157,8 @@ const Cards = styled(BaseLayout)`
 `
 
 const Home: React.FC = () => {
-  const TranslateString = useI18n()
+  const TranslateString = useI18n();
+  const [openSaleCard, setopenSaleCard] = useState(false);
 
   return (
     <Page>
@@ -178,16 +179,16 @@ const Home: React.FC = () => {
           </ButtonMenu>
         </div>
       </Hero>
-      <Salelayout style={{borderRadius:"20px 20px 0px 0px"}}>
+      <Salelayout style={{ borderRadius: "20px 20px 0px 0px" }}>
         <img src="/images/egg/LogoTextNewWhite.png" alt="logofor" style={{ display: "block", margin: "auto", width: "250px" }} />
-        <Button variant="secondary" mt="20px" style={{ width: "250px" }}>
+        <Button variant="secondary" mt="20px" style={{ width: "250px" }} onClick={() => setopenSaleCard(!openSaleCard)}>
           Show
         </Button>
 
       </Salelayout>
       <div style={{ width: "80%", margin: "auto" }}>
         <FlexLayout>
-
+          {/* 
           <Card>
             
             <CardHeader>
@@ -261,8 +262,8 @@ const Home: React.FC = () => {
                 </tr>
               </table>
             </CardBody>
-          </Card>
-          <Card>
+          </Card> */}
+          {openSaleCard && <Card>
             <CardHeader>
               <Text color="textColor" fontSize="25px">
                 Unlimited Sale
@@ -335,32 +336,32 @@ const Home: React.FC = () => {
               </table>
             </CardBody>
           </Card>
-
+          }
         </FlexLayout>
-        <div style={{margin:"20px"}}>
+        {openSaleCard && <div style={{ margin: "20px" }}>
           <Text color="textColor">
             Achievement :
           </Text>
           <Text color="textSubtle" fontSize="30px">
-              Launch Pad: Pharmswap Protocol (Pharm) 100
+            Launch Pad: Pharmswap Protocol (Pharm) 100
           </Text>
           <Text color="textSubtle">
-              Commit ~0.06253211183023942 Lp in Total To Earn!
+            Commit ~0.06253211183023942 Lp in Total To Earn!
           </Text>
           <a href="https://www.pancakeswap.finance">
             <Text>
               Learn More About Pharmswap Protocol (Pharm)
             </Text>
           </a>
-        </div>
+        </div>}
       </div>
 
-      <Salelayout style={{borderRadius:"0 0 20px 20px"}} >
-        <Button variant="secondary" style={{ width: "250px" }}>
+      {openSaleCard && <Salelayout style={{ borderRadius: "0 0 20px 20px" }} >
+        <Button variant="secondary" style={{ width: "250px" }}onClick={() => setopenSaleCard(!openSaleCard)}>
           Hide
         </Button>
 
-      </Salelayout>
+      </Salelayout>}
       <Takepart>
         <Text color="text" style={{ fontSize: "2.2em", marginBottom: "20px" }}>
           How To Take Part
@@ -392,7 +393,7 @@ const Home: React.FC = () => {
                 <Text color="textSubtle">
                   BNB is needed to take part in the token sale, if you do not have BNB you can purchase from the exchange.
                 </Text>
-                <Button size="sm" style={{ marginTop: "15px", minWidth: "128px", fontSize: "0.9em" }}>Purchase BNB</Button>
+                <Button onClick={() => window.open('https://exchange.pharmaswap.finance')} size="sm" style={{ marginTop: "15px", minWidth: "128px", fontSize: "0.9em" }}>Purchase BNB</Button>
               </Box>
             </td>
             <td />

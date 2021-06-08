@@ -44,7 +44,7 @@ const TwitterCard = () => {
             screenName: 'pharmswap',
           }}
           options={{
-            height: '300',
+            height: '250',
             chrome: 'noheader, nofooter',
             width: '400',
           }}

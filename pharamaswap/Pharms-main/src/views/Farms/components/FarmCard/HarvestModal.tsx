@@ -53,7 +53,7 @@ const ApyCalculatorModal: React.FC<ApyCalculatorModalProps> = ({
   const cakeEarnedPerThousand365D = calculateCakeEarnedPerThousandDollars({ numberOfDays: 365, farmApy, cakePrice })
 
   return (
-    <Modal title="ROI" onDismiss={onDismiss}>
+    <Modal title="ROI"  onDismiss={onDismiss}>
       <Description fontSize="12px" color="textSubtle">
         'AS YOU ARE STILL IN 11 DAY THRESHOLD REMOVING TOKENS FROM POOL WILL BURN 25% OF STAKE'.
       </Description>

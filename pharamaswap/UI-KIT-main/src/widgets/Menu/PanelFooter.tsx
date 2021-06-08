@@ -119,7 +119,7 @@ const PanelFooter: React.FC<Props> = ({
                   position="top-right"
                   target={
                     <Button variant="text" style={{ padding: "0", height: "0", textAlign: "center", width:"100%" }}>
-                      <Text color="text" style={{ fontWeight: "bold", fontSize:"25px", paddingTop:"30px" }}>{currentLang?.toUpperCase()}
+                      <Text color="text" style={{ fontWeight: 500, fontSize:"20px", paddingTop:"30px" }}>{currentLang?.toUpperCase()}
                       <ArrowDropDownIcon />
                       </Text>
                     </Button>
@@ -145,10 +145,10 @@ const PanelFooter: React.FC<Props> = ({
       </div>
       <SettingsEntry>
 
-        <Flex style={{padding:"10px", borderRadius:"50%"}}>
+        <Flex style={{padding:"8px 15px", marginTop:"15px", marginLeft:"-8px", marginBottom:"10px", borderRadius:"30px", background:`${isDark ? "#2d2d2d" : "#c0c0c04f"}`}}>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer", marginTop:"2px" } };
             const mr = index < socials.length - 1 ? "24px" : 0;
             // if (social.items) {
             //   return (
@@ -162,8 +162,8 @@ const PanelFooter: React.FC<Props> = ({
             //   );
             // }
             return (
-              <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
-                <Icon {...iconProps} />
+              <Link style={{borderRadius:"50%", background:`${isDark ? "#2d2d2d" : "#c0c0c0c0"}`, padding:"2px"}} external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
+                <Icon {...iconProps} isDark={isDark}  />
               </Link>
             );
           })}

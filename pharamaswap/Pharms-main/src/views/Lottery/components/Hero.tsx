@@ -26,10 +26,13 @@ const StyledHero = styled.div`
   box-shadow:0 0 12px 2px ${({ theme }) => theme.colors.text};
   text-align:center;
   background:url('/images/lotteryRight.png'), url('/images/lotteryLeft.png');
-  background-position:right center, left center;
+  background-position:95% 40%, 5% 40%;
   background-repeat:no-repeat;
-  background-size:20%;
+  background-size:15%;
   margin-bottom:20px;
+  ${({ theme }) => theme.mediaQueries.sm} {
+    background-position:95% 30%, 5% 30% !important; 
+  }
 `
 
 const StyledContainer = styled(Container)`
