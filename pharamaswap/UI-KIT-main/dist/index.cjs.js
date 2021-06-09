@@ -2393,14 +2393,14 @@ var Icon$X = function (props) {
 
 var Icon$Y = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/twitter.png" : "/images/twitterlight.png" }))
+        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/tw.png" : "/images/twlight.png" }))
     // <img src="" />
     );
 };
 
 var Icon$Z = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 26 25" }, props),
-        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/facebook.png" : "/images/facebooklight.png" }))
+        React__default['default'].createElement("image", { width: "20", height: "21", href: props.isDark ? "/images/fb.png" : "/images/fblight.png" }))
     // <Svg viewBox="-60 -30 600 600" {...props}>
     //   <g id="surface1">
     //     <path d="M 217.996094 158.457031 C 164.203125 158.457031 120.441406 202.21875 120.441406 256.007812 C 120.441406 309.800781 164.203125 353.5625 217.996094 353.5625 C 271.785156 353.5625 315.546875 309.800781 315.546875 256.007812 C 315.546875 202.21875 271.785156 158.457031 217.996094 158.457031 Z M 275.914062 237.636719 L 206.027344 307.523438 C 203.09375 310.457031 199.246094 311.925781 195.402344 311.925781 C 191.558594 311.925781 187.714844 310.460938 184.78125 307.523438 L 158.074219 280.816406 C 152.207031 274.953125 152.207031 265.441406 158.074219 259.574219 C 163.9375 253.707031 173.449219 253.707031 179.316406 259.574219 L 195.402344 275.660156 L 254.671875 216.394531 C 260.535156 210.527344 270.046875 210.527344 275.914062 216.394531 C 281.78125 222.257812 281.78125 231.769531 275.914062 237.636719 Z M 275.914062 237.636719 " />

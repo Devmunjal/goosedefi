@@ -6,7 +6,7 @@ const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 26 25" {...props}>
       {/* <image width="20" height="25" href='/images/facebook.png' /> */}
-      <image width="20" height="21" href={props.isDark ?"/images/facebook.png" : "/images/facebooklight.png"} />
+      <image width="20" height="21" href={props.isDark ?"/images/fb.png" : "/images/fblight.png"} />
 
     </Svg>
     // <Svg viewBox="-60 -30 600 600" {...props}>
