@@ -11,6 +11,10 @@ const StyledTotalValueLockedCard = styled(Card)`
   align-items: center;
   display: flex;
   flex: 1;
+  background-image:url('/images/totalvalue.png');
+  background-repeat:no-repeat;
+  background-position: 95% center;
+  background-size:120px;
 `
 
 const TotalValueLockedCard = () => {
@@ -28,9 +32,9 @@ const TotalValueLockedCard = () => {
         <>
           {/* <Heading size="xl">{`$${tvl}`}</Heading> */}
           {/* <Heading size="xl"> */}
-            <CardValue2 value={totalValue.toNumber()} prefix="$" decimals={2}/>
+            <CardValue2 fontSize="4em" value={totalValue.toNumber()} prefix="$" decimals={2}/>
           {/* </Heading> */}
-          <Text color="textSubtle">ACROSS ALL FARMS AND POOLS</Text>
+          <Text color="text">ACROSS ALL FARMS AND POOLS</Text>
         </>
       </CardBody>
     </StyledTotalValueLockedCard>

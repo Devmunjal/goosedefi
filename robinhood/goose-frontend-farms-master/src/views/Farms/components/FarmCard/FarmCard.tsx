@@ -56,10 +56,10 @@ const StyledCardAccent = styled.div`
 
 const FCard = styled.div`
   align-self: baseline;
-  background:#4730154f;
+  background:#000000c4;
   // background: ${(props) => props.theme.card.background};
-  border-radius: 0px;
-  box-shadow: 0 0 12px 2px ;
+  border-radius: 20px;
+  // box-shadow: 0 0 12px 2px ;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -118,7 +118,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'ROBINHOOD'
+  const earnLabel = 'RBH'
   const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,

@@ -20,7 +20,7 @@ const Text = styled.div<TextProps>`
   font-size: ${getFontSize};
   font-weight: ${({ bold }) => (bold ? 600 : 400)};
   line-height: 1.5;
-  text-shadow: 0px 0 4px ${getColor};
+  
   ${({ textTransform }) => textTransform && `text-transform: ${textTransform};`}
   ${space}
 `;

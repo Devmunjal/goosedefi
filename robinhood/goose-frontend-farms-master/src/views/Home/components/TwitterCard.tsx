@@ -29,7 +29,7 @@ const TwitterCard = () => {
   return (
     <StyledTwitterCard>
       <CardBody>
-        <Heading size="xl" mb="24px">
+        <Heading style={{fontSize:"2em"}} mb="24px">
           {TranslateString(10003, 'Announcements')}
         </Heading>
         <Timeline
@@ -38,7 +38,7 @@ const TwitterCard = () => {
             screenName: 'EnterFinance'
           }}
           options={{
-            height: '370',
+            height: '280',
             chrome: "noheader, nofooter",
             width: "400"
           }}

@@ -18,6 +18,9 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
         <Button
           size="sm"
           variant="tertiary"
+          style={{
+            backgroundImage: "linear-gradient(to right, #5a9d49, #90d480, #76bda5)",padding:"25px 25px"
+          }}
           onClick={() => {
             onPresentAccountModal();
           }}
@@ -30,7 +33,10 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
           onClick={() => {
             onPresentConnectModal();
           }}
-          style={{color:""}}
+
+          style={{
+            backgroundImage: "linear-gradient(to right, #5a9d49, #90d480, #76bda5)",padding:"25px 25px"
+          }}
         >
           CONNECT
         </Button>

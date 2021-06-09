@@ -31,7 +31,7 @@ const StyledCard = styled.div<StyledCardProps>`
   overflow: hidden;
   position: relative;
   border-radius:22px;
-  border:4px dotted ${({theme})=> theme.colors.textSubtle};
+  // border:4px dotted ${({theme})=> theme.colors.textSubtle};
 
   ${space}
 `;
